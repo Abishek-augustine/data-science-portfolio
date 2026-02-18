@@ -1,5 +1,3 @@
-# data-science-portfolio
-Portfolio of Data Science projects including ML, DL, NLP, Computer Vision, and real-time applications.
 # Data Science Portfolio
 
 👋 Hi, I'm **Abishek Augustine**, an MSc Data Science graduate with hands-on experience in  
@@ -9,15 +7,19 @@ This repository showcases my academic and real-world projects, focusing on probl
 model development, and real-time AI applications.
 
 ---
-
 ## 🔧 Skills & Tools
 - **Programming:** Python, SQL
+- **Data Analysis:** Pandas, NumPy
+- **Data Visualization:** Matplotlib, Seaborn, Plotly (Interactive Dashboards)
 - **Machine Learning:** Regression, Classification, Clustering
 - **Deep Learning:** CNN, RNN, LSTM, Transformers
 - **NLP:** BERT, Text Classification, Sentiment Analysis
 - **Computer Vision:** Image & Video Analysis, Deepfake Detection
 - **Frameworks:** TensorFlow, PyTorch, Scikit-learn
-- **Tools:** Git, GitHub, Jupyter, Streamlit
+- **Tools:** Git, GitHub, Jupyter Notebook, Streamlit
+
+
+
 
 ---
 
@@ -68,3 +70,5 @@ solutions in real-world problem domains.
 📫 **Connect with me**
 - GitHub: https://github.com/Abishek-augustine
 - LinkedIn: *(add your LinkedIn URL here)*
+
+- 
