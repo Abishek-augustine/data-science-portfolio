@@ -1,0 +1,88 @@
+Real-Time Email Phishing Detection
+
+This project detects phishing emails using a hybrid deep learning model
+(CNN + LSTM) combined with a Q-learning agent for real-time adaptive detection.
+
+Tech stack: Python, TensorFlow, CNN, LSTM, Reinforcement Learning.
+ Real-Time Email Phishing Detection using CNN, LSTM & Q-Learning
+
+ Project Overview
+This project implements a **real-time email phishing detection system** using a hybrid
+**CNN + LSTM deep learning model**, enhanced with a **Q-learning agent** for adaptive
+decision-making.
+
+The deep learning model performs phishing classification, while the reinforcement
+learning agent dynamically learns optimal actions in real-time email detection scenarios.
+
+---
+
+ 🧠 Problem Statement
+Traditional phishing detection systems are static and struggle to adapt to evolving
+attack patterns. This project addresses the need for an **intelligent, adaptive, and
+real-time phishing detection system**.
+
+---
+
+## 🔧 Tech Stack
+- **Programming:** Python
+- **Data Analysis:** Pandas, NumPy
+- **NLP:** Tokenization, Padding, Word Embeddings
+- **Deep Learning:** CNN, LSTM
+- **Reinforcement Learning:** Q-Learning
+- **Frameworks:** TensorFlow / Keras
+- **Visualization:** Matplotlib, Seaborn
+- **Tools:** Jupyter Notebook
+
+---
+
+## ⚙️ System Architecture
+1. Email text preprocessing and tokenization
+2. Feature extraction using word embeddings
+3. **CNN layers** for local textual pattern detection
+4. **LSTM layer** for sequence modeling
+5. Phishing probability prediction
+6. **Q-learning agent** for real-time decision optimization
+7. Final action: classify, flag, or allow email
+
+---
+
+ Role of Q-Learning Agent
+- Learns optimal actions based on detection confidence
+- Adapts to new phishing patterns over time
+- Improves real-time response effectiveness
+- Reduces false positives and false negatives dynamically
+
+---
+
+ 📊 Results
+- High phishing detection accuracy using CNN + LSTM
+- Improved real-time performance with Q-learning integration
+- Adaptive behavior in dynamic email environments
+
+## 📊 Model Performance
+
+The CNN + LSTM model with Q-learning achieved strong performance on the test dataset.
+
+| Metric     | Score |
+|-----------|-------|
+| Accuracy  | 98%   |
+| Precision | 98%   |
+| Recall    | 98%   |
+| F1-Score  | 98%   |
+
+**Confusion Matrix:**
+- True Negatives: 3885
+- False Positives: 115
+- False Negatives: 61
+- True Positives: 3939
+
+✅ High recall ensures most phishing emails are detected, while strong precision
+reduces false alerts for legitimate emails.
+
+
+---
+
+ 🚀 Future Enhancements
+- Replace Q-learning with Deep Q-Networks (DQN)
+- Integrate Transformer-based models (BERT)
+- Deploy as a real-time email security system
